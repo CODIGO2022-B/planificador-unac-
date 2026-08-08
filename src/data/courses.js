@@ -1,0 +1,4362 @@
+export const coursesData = [
+    {
+        "ciclo": "I",
+        "codigo": "1107",
+        "nombre": "ACTIVIDADES ORATORIA, TEATRO Y GIMNASIA",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "PUELLES CACHO LEONCIO",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "PUELLES CACHO LEONCIO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "PUELLES CACHO LEONCIO",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "PUELLES CACHO LEONCIO",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "I",
+        "codigo": "1106",
+        "nombre": "ÉTICA, CIUDADANÍA Y DEONTOLOGÍA",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "CHAVEZ SUAREZ ANA MARIA",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "ASIÁN QUIÑONES CARLOS ALBERTO",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "CHAVEZ SUAREZ ANA MARIA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "ASIÁN QUIÑONES CARLOS ALBERTO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "I",
+        "codigo": "1101",
+        "nombre": "FUNDAMENTOS DE LAS CIENCIAS ADMINISTRATIVAS",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "HUAMAN MEJIA MARIA CELINA",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "08:00 a 11:20",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "PUELLES CACHO LEONCIO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "09:40 a 13:00",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "PUELLES CACHO LEONCIO",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "14:40 a 18:00",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "HUARCAYA GODOY MADISON",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "14:40 a 18:00",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "I",
+        "codigo": "1105",
+        "nombre": "HERRAMIENTAS INFORMÁTICAS",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "ALIAGA VALDEZ CARLOS RICARDO ANTONIO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "CALVAY CASTILLO JOSE ORLANDO",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "CALVAY CASTILLO JOSE ORLANDO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "CALVAY CASTILLO JOSE ORLANDO",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "16:20 a 18:00",
+                        "aula": "SL01LA01",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "I",
+        "codigo": "1104",
+        "nombre": "LENGUAJE",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "PLASENCIA ALVA MAIBI ANA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "PLASENCIA ALVA MAIBI ANA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "PLASENCIA ALVA MAIBI ANA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "PLASENCIA ALVA MAIBI ANA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "I",
+        "codigo": "1102",
+        "nombre": "METODOLOGÍA DEL TRABAJO UNIVERSITARIO",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "ALDANA TREJO FLORCITA HERMOJA",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "RAMIREZ SOBALVARRO YASMINA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "ALVARADO BRAVO NESTOR MARCIAL",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "ALDANA TREJO FLORCITA HERMOJA",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "I",
+        "codigo": "1103",
+        "nombre": "REALIDAD NACIONAL Y GLOBALIZACION",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "GONZALES SOLSOL JORGE",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "GONZALES SOLSOL JORGE",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "GONZALES SOLSOL JORGE",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "GONZALES SOLSOL JORGE",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "II",
+        "codigo": "1114",
+        "nombre": "ACTIVIDADES II : GIMNASIA Y ATLETISMO",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "03A",
+                "docente": "POR DESIGNAR PROFESOR",
+                "clases": []
+            }
+        ]
+    },
+    {
+        "ciclo": "II",
+        "codigo": "1201",
+        "nombre": "ADMINISTRACIÓN EMPRESARIAL",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "TARAZONA PADILLA JULIO WILMER",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA2A03",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "09:40 a 13:00",
+                        "aula": "FCA2A03",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "HUAMAN MEJIA MARIA CELINA",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA3A07",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "09:40 a 13:00",
+                        "aula": "FCA3A07",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "TARAZONA PADILLA JULIO WILMER",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA2A03",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "14:40 a 18:00",
+                        "aula": "FCA2A03",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "HUAMAN MEJIA MARIA CELINA",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA3A07",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "13:00 a 16:20",
+                        "aula": "FCA3A07",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "II",
+        "codigo": "1205",
+        "nombre": "CONTABILIDAD GENERAL",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "RIVERA MORALES ADAN FAUSTO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "10:30 a 12:10",
+                        "aula": "FCA2A03",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA2A03",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "CALDERON MOQUILLAZA LUIS ALBERTO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA3A07",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA3A07",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "AGUILAR LOYAGA SANTIAGO RODOLFO",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA2A03",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA2A03",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "BONILLA RODRIGUEZ FELIX ALEJANDRO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "II",
+        "codigo": "1203",
+        "nombre": "ECONOMIA GENERAL",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "ALDANA TREJO FLORCITA HERMOJA",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA2A03",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA2A03",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "RASILLA ROVEGNO JOSE RICARDO",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA3A07",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA3A07",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "RASILLA ROVEGNO JOSE RICARDO",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA2A03",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA2A03",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "HUARCAYA GODOY MADISON",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA3A07",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA3A07",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "II",
+        "codigo": "1207",
+        "nombre": "INGLES TÉCNICO I",
+        "creditos": 2,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "MOLINA GUILLEN JAN KEI SAMIR",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "08:00 a 08:50",
+                        "aula": "FCA2A03",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "08:50 a 10:30",
+                        "aula": "FCA2A03",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "MOLINA GUILLEN JAN KEI SAMIR",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "11:20 a 12:10",
+                        "aula": "FCA3A07",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "12:10 a 13:50",
+                        "aula": "FCA3A07",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "MOLINA GUILLEN JAN KEI SAMIR",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "16:20 a 17:10",
+                        "aula": "FCA2A03",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA2A03",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "MOLINA GUILLEN JAN KEI SAMIR",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "13:00 a 13:50",
+                        "aula": "FCA3A07",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "13:50 a 15:30",
+                        "aula": "FCA3A07",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "II",
+        "codigo": "1206",
+        "nombre": "INTRODUCCIÓN A LA FILOSOFÍA",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "CAJAHUANCA LOLI MIRIAM DEL ROSARIO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "12:10 a 13:50",
+                        "aula": "FCA2A03",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA2A03",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "CAJAHUANCA LOLI MIRIAM DEL ROSARIO",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA3A07",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA3A07",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "CAJAHUANCA LOLI MIRIAM DEL ROSARIO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA2A03",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA2A03",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "CAJAHUANCA LOLI MIRIAM DEL ROSARIO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA3A07",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA3A07",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "II",
+        "codigo": "1202",
+        "nombre": "MATEMÁTICA PARA LOS NEGOCIOS",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "ESPINOZA CARRASCO VERONICA ELSA",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA2A03",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "08:00 a 11:20",
+                        "aula": "FCA2A03",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "BENDITA MAMANI SIMON",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA3A07",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "08:00 a 11:20",
+                        "aula": "FCA3A07",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "BENDITA MAMANI SIMON",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA2A03",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "14:40 a 18:00",
+                        "aula": "FCA2A03",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "BENDITA MAMANI SIMON",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA3A07",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "15:30 a 18:50",
+                        "aula": "FCA3A07",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "II",
+        "codigo": "1204",
+        "nombre": "REDACCIÓN DE DOCUMENTOS DE GESTIÓN",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "PALOMINO NAZAR LIZBERLIS LOURDES",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA2A03",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA2A03",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "PALOMINO NAZAR LIZBERLIS LOURDES",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA3A07",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA3A07",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "PALOMINO NAZAR LIZBERLIS LOURDES",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "13:00 a 14:40",
+                        "aula": "SL01LA01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA2A03",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "PALOMINO NAZAR LIZBERLIS LOURDES",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "16:20 a 18:00",
+                        "aula": "SL01LA01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA3A07",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "III",
+        "codigo": "1306",
+        "nombre": "CONSTITUCIÓN POLÍTICA DEL PERÚ",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "GUERRERO VILCARA KATHIA EDITH",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "MANAY MONTES LUIS ELMER",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A10",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A10",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "MANAY MONTES LUIS ELMER",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "ASIÁN QUIÑONES CARLOS ALBERTO",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "III",
+        "codigo": "1305",
+        "nombre": "COSTOS Y PRESUPUESTOS",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "CALDERON MOQUILLAZA LUIS ALBERTO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "10:30 a 12:10",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "BONILLA RODRIGUEZ FELIX ALEJANDRO",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A10",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A10",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "CALDERON MOQUILLAZA LUIS ALBERTO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "BONILLA RODRIGUEZ FELIX ALEJANDRO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "III",
+        "codigo": "1303",
+        "nombre": "ECONOMÍA DE EMPRESA",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "RASILLA ROVEGNO JOSE RICARDO",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "AGUILAR LOYAGA SANTIAGO RODOLFO",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "08:50 a 10:30",
+                        "aula": "FCA4A10",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A10",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "CASTILLO PRADO JORGE ALFREDO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA3A05",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "RASILLA ROVEGNO JOSE RICARDO",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "III",
+        "codigo": "1302",
+        "nombre": "ESTADÍSTICA I",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "ALIAGA VALDEZ CARLOS RICARDO ANTONIO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "ESPINOZA CARRASCO VERONICA ELSA",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A10",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A10",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "ESPINOZA CARRASCO VERONICA ELSA",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "14:40 a 16:20",
+                        "aula": "SL01LA01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "16:20 a 18:00",
+                        "aula": "SL01LA01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "CALDERON OTOYA CARLOS ENRIQUE",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "14:40 a 16:20",
+                        "aula": "SL01LA02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "16:20 a 18:00",
+                        "aula": "SL01LA02",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "III",
+        "codigo": "1307",
+        "nombre": "INGLES TÉCNICO II",
+        "creditos": 2,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "MOLINA GUILLEN JAN KEI SAMIR",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "10:30 a 11:20",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "MOLINA GUILLEN JAN KEI SAMIR",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "08:00 a 08:50",
+                        "aula": "FCA1T01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "08:50 a 10:30",
+                        "aula": "FCA1T01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "MOLINA GUILLEN JAN KEI SAMIR",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "16:20 a 17:10",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "III",
+        "codigo": "1304",
+        "nombre": "LIDERAZGO Y EMPRENDIMIENTO",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "PINCHI UGARTE ENRIQUE",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "12:10 a 13:50",
+                        "aula": "SL01LA01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "09:40 a 13:00",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "PINCHI UGARTE ENRIQUE",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A10",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "10:30 a 13:50",
+                        "aula": "FCA4A10",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "MORENO SAN MARTIN JUAN HECTOR",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "14:40 a 18:00",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "PINCHI UGARTE ENRIQUE",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "16:20 a 17:10",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "14:40 a 17:10",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "III",
+        "codigo": "1301",
+        "nombre": "ORGANIZACIÓN Y RACIONALIZACIÓN",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "POR DESIGNAR PROFESOR",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "09:40 a 10:30",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "08:00 a 10:30",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "POR DESIGNAR PROFESOR",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "10:30 a 12:10",
+                        "aula": "FCA4A10",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "12:10 a 13:00",
+                        "aula": "FCA4A10",
+                        "tipo": "P"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "11:20 a 13:50",
+                        "aula": "FCA4A10",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "DIAZ GONZALES ALEJANDRO",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "13:00 a 16:20",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "ALEJOS IPANAQUE RUFINO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA3A07",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "13:00 a 16:20",
+                        "aula": "FCA3A08",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "IV",
+        "codigo": "1401",
+        "nombre": "ADMINISTRACIÓN DEL CAMBIO ORGANIZACIONAL",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "NARCISO GOMEZ KENNEDY",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA3A08",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "08:00 a 11:20",
+                        "aula": "FCA3A08",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "NARCISO GOMEZ KENNEDY",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "08:00 a 11:20",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "DIAZ GONZALES ALEJANDRO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA3A08",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "13:00 a 16:20",
+                        "aula": "FCA3A08",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "DIAZ GONZALES ALEJANDRO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "13:00 a 16:20",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "IV",
+        "codigo": "1405",
+        "nombre": "CONTABILIDAD GERENCIAL",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "CALDERON MOQUILLAZA LUIS ALBERTO",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA3A08",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA3A08",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "RIVERA MORALES ADAN FAUSTO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "BONILLA RODRIGUEZ FELIX ALEJANDRO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA3A08",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA3A08",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "RIVERA MORALES ADAN FAUSTO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "IV",
+        "codigo": "1406",
+        "nombre": "DERECHO I",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "GUERRERO VILCARA KATHIA EDITH",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA3A08",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA3A08",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "GUERRERO VILCARA KATHIA EDITH",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "ASIÁN QUIÑONES CARLOS ALBERTO",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA3A08",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA3A08",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "ASIÁN QUIÑONES CARLOS ALBERTO",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "15:30 a 17:10",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "IV",
+        "codigo": "1402",
+        "nombre": "ESTADÍSTICA II",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "RAMIREZ SOBALVARRO YASMINA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA3A08",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA3A08",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "ALIAGA VALDEZ CARLOS RICARDO ANTONIO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "RAMIREZ SOBALVARRO YASMINA",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA3A08",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA3A08",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "RAMIREZ SOBALVARRO YASMINA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "16:20 a 18:00",
+                        "aula": "SL01LA02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "16:20 a 18:00",
+                        "aula": "SL01LA02",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "IV",
+        "codigo": "1404",
+        "nombre": "HABILIDADES BLANDAS",
+        "creditos": 2,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "GUERRERO CABALLERO MARCO ANTONIO",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "11:20 a 12:10",
+                        "aula": "FCA1T01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "12:10 a 13:50",
+                        "aula": "FCA1T01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "MORENO SAN MARTIN JUAN HECTOR",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "11:20 a 12:10",
+                        "aula": "FCA1T01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "12:10 a 13:50",
+                        "aula": "FCA1T01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "MORENO SAN MARTIN JUAN HECTOR",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "16:20 a 17:10",
+                        "aula": "FCA3A08",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA3A08",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "GONZALES GUERRA MADELEINE",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "13:00 a 13:50",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "13:50 a 15:30",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "IV",
+        "codigo": "1407",
+        "nombre": "INVESTIGACIÓN OPERATIVA",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "MAGUIÑA MENDOZA MARIO ARTURO",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA3A08",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "09:40 a 13:00",
+                        "aula": "FCA3A08",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "MAGUIÑA MENDOZA MARIO ARTURO",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "09:40 a 13:00",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "MAGUIÑA MENDOZA MARIO ARTURO",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA3A08",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "13:00 a 16:20",
+                        "aula": "SL01LA02",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "GONZALES GUERRA MADELEINE",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "16:20 a 18:00",
+                        "aula": "SL01LA02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "13:00 a 16:20",
+                        "aula": "SL01LA01",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "IV",
+        "codigo": "1403",
+        "nombre": "MARKETING",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "GUERRERO CABALLERO MARCO ANTONIO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA3A08",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA3A08",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "GUERRERO CABALLERO MARCO ANTONIO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "GONZALES GUERRA MADELEINE",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA3A08",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA3A08",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "06A",
+                "docente": "GUERRERO CABALLERO MARCO ANTONIO",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "V",
+        "codigo": "1502",
+        "nombre": "ADMINISTRACIÓN MARÍTIMA Y PORTUARIA",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "PUICAN CASTRO JUAN BENJAMIN",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "PUICAN CASTRO JUAN BENJAMIN",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "CORILLA CÓNDOR MARGOT CECILIA",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA3A05",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA3A05",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "V",
+        "codigo": "1501",
+        "nombre": "CREATIVIDAD E INNOVACIÓN EMPRESARIAL",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "GIRALDO RIOS KARINA JULIETA",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "GIRALDO RIOS KARINA JULIETA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "RAMIREZ SOBALVARRO YASMINA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA3A05",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA3A05",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "V",
+        "codigo": "1506",
+        "nombre": "DERECHO II",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "MANAY MONTES LUIS ELMER",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "MANAY MONTES LUIS ELMER",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "CAJAHUANCA LOLI MIRIAM DEL ROSARIO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA3A05",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA3A05",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "V",
+        "codigo": "1507",
+        "nombre": "GESTIÓN DE PROCESOS",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "ESPINOZA SANTE JULIO CESAR",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "08:00 a 11:20",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "GONZALES GUERRA MADELEINE",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "08:00 a 11:20",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "GONZALES SOLSOL JORGE",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "16:20 a 18:00",
+                        "aula": "SL01LA02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "13:00 a 16:20",
+                        "aula": "FCA3A05",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "V",
+        "codigo": "1503",
+        "nombre": "INVESTIGACIÓN DE MERCADOS",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "DE LA TORRE COLLAO LUIS ALBERTO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "GIRALDO RIOS KARINA JULIETA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "DE LA TORRE COLLAO LUIS ALBERTO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA3A05",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA3A05",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "V",
+        "codigo": "1505",
+        "nombre": "MATEMÁTICA FINANCIERA",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "CONSTANTINO COLACCI JUAN ANTONIO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "CONSTANTINO COLACCI JUAN ANTONIO",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "CONSTANTINO COLACCI JUAN ANTONIO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA3A05",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA3A05",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "V",
+        "codigo": "1504",
+        "nombre": "PSICOLOGÍA EMPRESARIAL",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "ALVARADO BRAVO NESTOR MARCIAL",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "02A",
+                "docente": "CHAVEZ SUAREZ ANA MARIA",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "CHAVEZ SUAREZ ANA MARIA",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA3A05",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA3A05",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VI",
+        "codigo": "1603",
+        "nombre": "COMPORTAMIENTO DEL CONSUMIDOR",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "GIRALDO RIOS KARINA JULIETA",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "ALDANA TREJO FLORCITA HERMOJA",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA2A01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA2A01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "10A",
+                "docente": "ALDANA TREJO FLORCITA HERMOJA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "18:00 a 19:40",
+                        "aula": "FCA2A01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "19:40 a 21:20",
+                        "aula": "FCA2A01",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VI",
+        "codigo": "1606",
+        "nombre": "COMUNICACIONES ESTRATÉGICAS",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "POR DESIGNAR PROFESOR",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "PINTADO PASAPERA EGARD ALAN",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA2A01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA2A01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "10A",
+                "docente": "SALAZAR SHIRAISHI SHEILA VIVEKA",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA2A01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA2A01",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VI",
+        "codigo": "1608",
+        "nombre": "DIRECCIÓN DE LA PRODUCCIÓN Y OPERACIONES",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "05A",
+                "docente": "AGUILAR LOYAGA SANTIAGO RODOLFO",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "12:10 a 13:50",
+                        "aula": "FCA1T01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "13:50 a 17:10",
+                        "aula": "FCA1T01",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VI",
+        "codigo": "1605",
+        "nombre": "FINANZAS",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "ALIAGA VALDEZ CARLOS RICARDO ANTONIO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "CONSTANTINO COLACCI JUAN ANTONIO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA2A01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA2A01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "10A",
+                "docente": "CASTILLO PRADO JORGE ALFREDO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "18:00 a 19:40",
+                        "aula": "FCA2A01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "19:40 a 21:20",
+                        "aula": "FCA2A01",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VI",
+        "codigo": "1601",
+        "nombre": "PLANEAMIENTO ESTRATÉGICO",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "FARFAN FLORES MOISES OSWALDO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "08:00 a 09:40",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "ANGULO POMIANO WILLIAM PETER",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA2A01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA2A01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "10A",
+                "docente": "SALAZAR SHIRAISHI SHEILA VIVEKA",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "18:00 a 19:40",
+                        "aula": "FCA2A01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA2A01",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VI",
+        "codigo": "1607",
+        "nombre": "POLITICA NACIONAL Y MODERNIZACIÓN DEL ESTADO",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "05A",
+                "docente": "CORILLA CÓNDOR MARGOT CECILIA",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "12:10 a 13:50",
+                        "aula": "FCA2A01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "13:50 a 17:10",
+                        "aula": "FCA2A01",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VI",
+        "codigo": "1604",
+        "nombre": "RECLUTAMIENTO, SELECCIÓN Y CAPACITACIÓN DE RRHH",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "NARCISO GOMEZ KENNEDY",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "AMABLE FARRO ALFONSO SALVADOR",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "14:40 a 15:30",
+                        "aula": "FCA2A01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA2A01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA2A01",
+                        "tipo": "P"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA2A01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "10A",
+                "docente": "SALAZAR SHIRAISHI SHEILA VIVEKA",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "18:00 a 19:40",
+                        "aula": "FCA2A01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "19:40 a 20:30",
+                        "aula": "FCA2A01",
+                        "tipo": "P"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "19:40 a 20:30",
+                        "aula": "FCA2A01",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VI",
+        "codigo": "1602",
+        "nombre": "SISTEMAS DE INFORMACIÓN GERENCIAL",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "SANTURIO RAMIREZ JUAN CARLOS",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "09:40 a 11:20",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "05A",
+                "docente": "MUGURUZA CAVERO ELIZABETH FLOR DE MARIA",
+                "clases": []
+            },
+            {
+                "id": "10A",
+                "docente": "MUGURUZA CAVERO ELIZABETH FLOR DE MARIA",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA2A01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA2A01",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VII",
+        "codigo": "1704",
+        "nombre": "ADMINISTRACIÓN DE SUELDOS Y SALARIOS",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "05A",
+                "docente": "FARFAN FLORES MOISES OSWALDO",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A10",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA4A10",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "10A",
+                "docente": "ANGULO POMIANO WILLIAM PETER",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VII",
+        "codigo": "1702",
+        "nombre": "COMERCIO ELECTRÓNICO",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "05A",
+                "docente": "CALVAY CASTILLO JOSE ORLANDO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A10",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "13:00 a 14:40",
+                        "aula": "SL01LA01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "10A",
+                "docente": "CALVAY CASTILLO JOSE ORLANDO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VII",
+        "codigo": "1701",
+        "nombre": "CONFLICTOS, NEGOCIACIONES Y COACHING",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "05A",
+                "docente": "ANGULO POMIANO WILLIAM PETER",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA4A10",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA4A10",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "10A",
+                "docente": "ANGULO POMIANO WILLIAM PETER",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VII",
+        "codigo": "1705",
+        "nombre": "FINANZAS CORPORATIVAS",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "05A",
+                "docente": "CASTILLO PRADO JORGE ALFREDO",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "13:00 a 14:40",
+                        "aula": "FCA4A10",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA4A10",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "10A",
+                "docente": "CASTILLO PRADO JORGE ALFREDO",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VII",
+        "codigo": "1707",
+        "nombre": "GESTIÓN DE CONTRATACIONES ESTATALES",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "RIEGA CALLE GERARDO DAVID",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA4A10",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "18:50 a 22:10",
+                        "aula": "FCA4A10",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VII",
+        "codigo": "1708",
+        "nombre": "GESTIÓN DE LA CADENA DE SUMINISTRO",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "ESPINOZA SANTE JULIO CESAR",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "18:50 a 22:10",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VII",
+        "codigo": "1703",
+        "nombre": "MARKETING ESTRATÉGICO",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "05A",
+                "docente": "CORILLA CÓNDOR MARGOT CECILIA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA4A10",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA4A10",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "10A",
+                "docente": "MORENO SAN MARTIN JUAN HECTOR",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VII",
+        "codigo": "1706",
+        "nombre": "METODOLOGÍA DE LA INVESTIGACIÓN CIENTÍFICA",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "05A",
+                "docente": "ALVARADO BRAVO NESTOR MARCIAL",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "14:40 a 16:20",
+                        "aula": "FCA4A10",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "16:20 a 18:00",
+                        "aula": "FCA4A10",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "10A",
+                "docente": "ALVARADO BRAVO NESTOR MARCIAL",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA4A14",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA4A14",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VIII",
+        "codigo": "1804",
+        "nombre": "COMPORTAMIENTO HUMANO EN LA ORGANIZACIÓN",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "PINTADO PASAPERA EGARD ALAN",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "11A",
+                "docente": "PINTADO PASAPERA EGARD ALAN",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VIII",
+        "codigo": "1159",
+        "nombre": "CULTURA Y GESTION DE LA CALIDAD",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "01A",
+                "docente": "POR DESIGNAR PROFESOR",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "09:40 a 12:10",
+                        "aula": "FCA3A05",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "11:20 a 13:00",
+                        "aula": "FCA3A05",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VIII",
+        "codigo": "1806",
+        "nombre": "DISEÑO DEL PROYECTO DE TESIS",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "AMABLE FARRO ALFONSO SALVADOR",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "11A",
+                "docente": "AMABLE FARRO ALFONSO SALVADOR",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA1T01",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VIII",
+        "codigo": "1805",
+        "nombre": "FINANZAS INTERNACIONALES",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "ACOSTA GUERRA WILBER ASCENSION",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "11A",
+                "docente": "ACOSTA GUERRA WILBER ASCENSION",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VIII",
+        "codigo": "1807",
+        "nombre": "GESTIÓN DE PROGRAMAS SOCIALES Y RESPONSABILIDAD SOCIAL",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "FARFAN AGUILAR JOSE ANTONIO",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VIII",
+        "codigo": "1801",
+        "nombre": "GESTIÓN PÚBLICA",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "ALEJOS IPANAQUE RUFINO",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "18:50 a 22:10",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "11A",
+                "docente": "NIEVES BARRETO CONSTANTINO MIGUEL",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "18:50 a 22:10",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VIII",
+        "codigo": "1802",
+        "nombre": "NEGOCIOS INTERNACIONALES",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "ACOSTA GUERRA WILBER ASCENSION",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "11A",
+                "docente": "ACOSTA GUERRA WILBER ASCENSION",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VIII",
+        "codigo": "1808",
+        "nombre": "RESPONSABILIDAD SOCIAL EMPRESARIAL",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "GONZALES GUERRA MADELEINE",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA1T01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA1T01",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "VIII",
+        "codigo": "1803",
+        "nombre": "TRADE MARKETING",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "SUAREZ BAZALAR RAUL",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "11A",
+                "docente": "SUAREZ BAZALAR RAUL",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "IX",
+        "codigo": "1171",
+        "nombre": "COMUNICACIONES ORGANIZACIONALES Y RELACIONES PUBLICAS",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "FARFAN FLORES MOISES OSWALDO",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "18:00 a 20:30",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "11A",
+                "docente": "SALAZAR SHIRAISHI SHEILA VIVEKA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "18:00 a 20:30",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "12A",
+                "docente": "FARFAN FLORES MOISES OSWALDO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "18:00 a 20:30",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "IX",
+        "codigo": "1163",
+        "nombre": "ERGONOMIA Y SEGURIDAD INDUSTRIAL",
+        "creditos": 5,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "CAJAHUANCA LOLI MIRIAM DEL ROSARIO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "18:00 a 21:20",
+                        "aula": "FCA3A08",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Sáb",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA3A08",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "IX",
+        "codigo": "1164",
+        "nombre": "GESTION COMERCIAL INTERNACIONAL",
+        "creditos": 5,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "PUICAN CASTRO JUAN BENJAMIN",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "18:00 a 21:20",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "21:20 a 22:10",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "17:10 a 18:00",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "IX",
+        "codigo": "1168",
+        "nombre": "PRACTICAS PRE PROFESIONALES I",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "RIEGA CALLE GERARDO DAVID",
+                "clases": [
+                    {
+                        "dia": "Sáb",
+                        "hora": "13:00 a 13:50",
+                        "aula": "FCA1T01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Sáb",
+                        "hora": "13:50 a 18:50",
+                        "aula": "FCA1T01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "11A",
+                "docente": "CALDERON OTOYA CARLOS ENRIQUE",
+                "clases": [
+                    {
+                        "dia": "Sáb",
+                        "hora": "13:00 a 13:50",
+                        "aula": "FCA2A04",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Sáb",
+                        "hora": "13:50 a 18:50",
+                        "aula": "FCA2A04",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "IX",
+        "codigo": "1170",
+        "nombre": "SISTEMAS DE INFORMACIÓN GERENCIAL",
+        "creditos": 5,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "MUGURUZA CAVERO ELIZABETH FLOR DE MARIA",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "17:10 a 20:30",
+                        "aula": "SL01LA01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "11A",
+                "docente": "MUGURUZA CAVERO ELIZABETH FLOR DE MARIA",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "17:10 a 20:30",
+                        "aula": "SL01LA01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "20:30 a 22:10",
+                        "aula": "SL01LA01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "12A",
+                "docente": "MUGURUZA CAVERO ELIZABETH FLOR DE MARIA",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "18:00 a 20:30",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "18:50 a 19:40",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "19:40 a 21:20",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "IX",
+        "codigo": "1169",
+        "nombre": "TESIS I",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "TARAZONA PADILLA JULIO WILMER",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "18:00 a 19:40",
+                        "aula": "FCA4A11",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "19:40 a 21:20",
+                        "aula": "FCA4A11",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "11A",
+                "docente": "ALVARADO BRAVO NESTOR MARCIAL",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "18:00 a 19:40",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "12A",
+                "docente": "AMABLE FARRO ALFONSO SALVADOR",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA4A12",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA4A12",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "IX",
+        "codigo": "1166",
+        "nombre": "TRADE MARKETING",
+        "creditos": 5,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "SUAREZ BAZALAR RAUL",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "18:00 a 21:20",
+                        "aula": "FCA2A02",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "21:20 a 22:10",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "17:10 a 18:00",
+                        "aula": "FCA2A02",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "X",
+        "codigo": "1180",
+        "nombre": "AUDITORIA DE GESTION",
+        "creditos": 5,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "RIVERA MORALES ADAN FAUSTO",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "17:10 a 20:30",
+                        "aula": "FCA3A09",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA3A09",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "11A",
+                "docente": "DIAZ GONZALES ALEJANDRO",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "18:50 a 22:10",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "X",
+        "codigo": "1179",
+        "nombre": "GESTION DE TECNOLOGIA",
+        "creditos": 5,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "SANTURIO RAMIREZ JUAN CARLOS",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "17:10 a 20:30",
+                        "aula": "FCA1T01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA1T01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "11A",
+                "docente": "SANTURIO RAMIREZ JUAN CARLOS",
+                "clases": [
+                    {
+                        "dia": "Jue",
+                        "hora": "17:10 a 20:30",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "X",
+        "codigo": "1172",
+        "nombre": "INGLES TECNICO GTH",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "CORREA SILVA EDWARD GERARDO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "18:00 a 19:40",
+                        "aula": "FCA1T01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "19:40 a 21:20",
+                        "aula": "FCA1T01",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "X",
+        "codigo": "1175",
+        "nombre": "INGLES TECNICO ME",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "CORREA SILVA EDWARD GERARDO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "18:00 a 19:40",
+                        "aula": "FCA1T01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "19:40 a 21:20",
+                        "aula": "FCA1T01",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "X",
+        "codigo": "1173",
+        "nombre": "INGLES TECNICO NI",
+        "creditos": 3,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "MOLINA GUILLEN JAN KEI SAMIR",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "18:50 a 20:30",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Lun",
+                        "hora": "20:30 a 22:10",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "X",
+        "codigo": "1177",
+        "nombre": "PRÁCTICA PRE PROFESIONALES II",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "CORREA SILVA EDWARD GERARDO",
+                "clases": [
+                    {
+                        "dia": "Lun",
+                        "hora": "17:10 a 18:00",
+                        "aula": "FCA1T01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Jue",
+                        "hora": "17:10 a 22:10",
+                        "aula": "FCA1T01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "11A",
+                "docente": "RIEGA CALLE GERARDO DAVID",
+                "clases": [
+                    {
+                        "dia": "Mié",
+                        "hora": "17:10 a 18:00",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mié",
+                        "hora": "18:00 a 20:30",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    },
+                    {
+                        "dia": "Sáb",
+                        "hora": "18:50 a 21:20",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ciclo": "X",
+        "codigo": "1178",
+        "nombre": "TRABAJO DE INVESTIGACIÓN",
+        "creditos": 4,
+        "secciones": [
+            {
+                "id": "10A",
+                "docente": "DE LA TORRE COLLAO LUIS ALBERTO",
+                "clases": [
+                    {
+                        "dia": "Vie",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA1T01",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Vie",
+                        "hora": "18:50 a 22:10",
+                        "aula": "FCA1T01",
+                        "tipo": "P"
+                    }
+                ]
+            },
+            {
+                "id": "11A",
+                "docente": "ASIÁN QUIÑONES CARLOS ALBERTO",
+                "clases": [
+                    {
+                        "dia": "Mar",
+                        "hora": "17:10 a 18:50",
+                        "aula": "FCA4A13",
+                        "tipo": "T"
+                    },
+                    {
+                        "dia": "Mar",
+                        "hora": "18:50 a 22:10",
+                        "aula": "FCA4A13",
+                        "tipo": "P"
+                    }
+                ]
+            }
+        ]
+    }
+];
